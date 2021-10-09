@@ -1,7 +1,12 @@
+/* body */
+
 body {
   background-image: linear-gradient(to right, #002a75, #b90000);
 }
-.klasa {
+
+/* baner */
+
+.calosc {
   position: relative;
   text-align: center;
   color: white;
@@ -26,7 +31,9 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.container {
+/* strona główna / ten taki śmieszny kwadracik */
+
+.srodek {
   display: grid;
   position: relative;
   text-align: center;
@@ -40,6 +47,8 @@ h2 {
 }
 
 .zdj {
+  max-width: 40%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
@@ -51,8 +60,34 @@ h2 {
 }
 
 .tlo {
+  border-radius: 25px;
   background-color: #004c8f9a;
   padding-bottom: 50px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* artykuły */
+
+article {
+  height: auto;
+  text-align: left;
+  font-size: 1.25vmax;
+  font-family: sans-serif;
+  padding: 20px;
+  color: inherit;
+}
+
+.zdj_lewo {
+  padding: 10px;
+  max-width: 25%;
+  height: auto;
+  float: left;
+}
+
+.zdj_prawo {
+  padding: 10px;
+  max-width: 25%;
+  height: auto;
+  float: right;
 }
