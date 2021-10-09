@@ -1,6 +1,11 @@
 body {
   background-image: linear-gradient(to right, #002a75, #b90000);
 }
+.klasa {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
 #baner {
   display: block;
@@ -10,22 +15,44 @@ body {
   padding: 10px;
 }
 
+#napis_baner {
+  color: white;
+  font-family: "Allan", cursive;
+  font-size: 10vw;
+  text-shadow: black 2px 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .container {
+  display: grid;
   position: relative;
   text-align: center;
   color: white;
+}
+
+h2 {
+  font-family: "Allan", cursive;
+  text-shadow: black 2px 2px 5px;
+  font-size: 4.5vw;
 }
 
 .zdj {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-}
-
-.zdj {
   transition: transform 0.3s;
 }
 
 .zdj:hover {
   transform: scale(1.1, 1.1);
+}
+
+.tlo {
+  background-color: #004c8f9a;
+  padding-bottom: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
