@@ -20,7 +20,8 @@ body {
   padding: 10px;
 }
 
-#napis_baner {
+
+h1 {
   color: white;
   font-family: "Allan", cursive;
   font-size: 10vw;
